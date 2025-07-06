@@ -49,6 +49,7 @@ const HeroLeft = (props: IProps) => {
                 <SocialMedia
                     github={APP_DATA.GITHUB_URL}
                     facebook={APP_DATA.FACEBOOK_URL}
+                    email={APP_DATA.GMAIL_URL}
                 />
             </div>
             <div className="d-md-flex d-none gap-4">

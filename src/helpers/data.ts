@@ -7,7 +7,8 @@ import springRestImg from '../assets/project/spring-rest.png';
 
 export const APP_DATA = {
     FACEBOOK_URL: "https://www.facebook.com/nguyen.minh.407137/",
-    GITHUB_URL:"https://github.com/minh21012005"
+    GITHUB_URL:"https://github.com/minh21012005",
+    GMAIL_URL:"baminhss@gmail.com",
 }
 
 export const EXPERIENCES = [
