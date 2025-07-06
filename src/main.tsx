@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import HomePage from 'pages/home';
 import ProjectPage from 'pages/project';
-import AboutPage from 'pages/about';
+import AboutPage from '@/pages/about';
 import { AppContextProvider } from 'components/context/app.context';
 import '@/i18n';
 
