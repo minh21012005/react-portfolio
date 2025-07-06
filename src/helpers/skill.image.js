@@ -72,11 +72,20 @@ import vuetifyjs from '../assets/svg/skills/vuetifyjs.svg';
 import webix from '../assets/svg/skills/webix.svg';
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg';
 import wordpress from '../assets/svg/skills/wordpress.svg';
+import springboot from '../assets/svg/skills/spring-boot.svg';
+import sqlserver from '../assets/svg/skills/sql-server.svg';
+import postman from '../assets/svg/skills/postman.svg';
 
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case 'postman':
+            return postman;
+        case 'sqlserver':
+            return sqlserver;
+        case 'springboot':
+            return springboot;
         case 'gcp':
             return gcp;
         case 'html':

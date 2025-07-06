@@ -1,28 +1,28 @@
 {
     "appHeader": {
-        "brand": "Hỏi Dân IT",
+        "brand": "Nguyễn Bá Minh",
         "home": "Trang chủ",
         "project": "Dự án",
         "contact": "Liên hệ",
-        "about": "Về tác giả"
+        "about": "Giới thiệu"
     },
     "heroSection": {
         "exp": "Kinh nghiệm",
-        "cv": "Tải Resume"
+        "cv": "Tải CV"
     },
     "introSection": {
         "about": "Giới thiệu",
         "and": "và",
-        "heading1": "Yêu đơn phương lập trình và tôi tin rằng mình đã học hỏi được ít nhiều điều gì đó. 🤷‍♂️",
-        "heading2": "Tôi nắm vững các ngôn ngữ huyền thoại như là",
-        "heading3": "Lĩnh vực quan tâm của tôi là",
-        "heading4": "xây dựng các công nghệ web mới và các sản phẩm liên quan",
-        "heading5": "Bất cứ khi nào có thể, tôi cũng áp dụng niềm đam mê phát triển sản phẩm của mình với"
+        "heading1": "Tôi đam mê lập trình và luôn mong muốn học hỏi, phát triển mỗi ngày.",
+        "heading2": "Tôi thành thạo các công nghệ như",
+        "heading3": "Lĩnh vực tôi quan tâm là xây dựng các",
+        "heading4": "ứng dụng web và hệ thống backend",
+        "heading5": "Bất cứ khi nào có thể, tôi luôn áp dụng đam mê lập trình của mình với"
     },
     "experience": {
-        "title": "Kinh nghiệm làm việc"
+        "title": "Kinh nghiệm"
     },
     "skill": {
-        "title": "Kỹ năng"
+        "title": "Kỹ năng kỹ thuật"
     }
 }

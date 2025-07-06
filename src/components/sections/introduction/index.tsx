@@ -1,6 +1,6 @@
 import { Col, Row } from 'react-bootstrap';
 import Tilt from "react-parallax-tilt";
-import avatarImg from "../../../assets/avatar.svg";
+import avatarImg from "assets/avatar.svg";
 import './introduction.scss';
 import { useTranslation } from 'react-i18next';
 
@@ -45,7 +45,7 @@ const Introduction = () => {
                         <i>
                             <b className='text-pink-100'>
                                 {" "}
-                                Node.js
+                                React.js
                             </b>
                         </i>
 
