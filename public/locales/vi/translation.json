@@ -24,5 +24,27 @@
     },
     "skill": {
         "title": "Kỹ năng kỹ thuật"
+    },
+    "projectSection": {
+        "heading1": "Một số",
+        "heading2": "Dự án gần đây",
+        "subHeading": "Dưới đây là một vài dự án mà tôi đã thực hiện gần đây."
+    },
+    "aboutSection": {
+        "heading": "Tôi là ai",
+        "intro": "Xin chào, tôi là {{name}} đến từ Hà Nội, Việt Nam.",
+        "student": "Hiện tại tôi là sinh viên ngành Công nghệ Thông tin tại FPT University.",
+        "focus": "Tôi tập trung vào lập trình web full-stack, đặc biệt là backend với Java Spring Boot và frontend với React.",
+        "hobby": "Ngoài lập trình, tôi còn yêu thích:",
+        "hobby1": "Khám phá công nghệ mới",
+        "hobby2": "Làm các dự án cá nhân",
+        "hobby3": "Nghe nhạc và học kỹ năng mới",
+        "quote": "\"Cố gắng tốt hơn 1% mỗi ngày.\"",
+        "education": "Học vấn",
+        "major": "Công nghệ thông tin",
+        "school": "FPT University",
+        "gpa": "GPA: 8.3 / 10",
+        "findMe": "LIÊN HỆ VỚI TÔI QUA",
+        "contact": "Liên hệ với tôi"
     }
 }

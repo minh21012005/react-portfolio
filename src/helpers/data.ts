@@ -32,38 +32,62 @@ export const EXPERIENCES = [
 ]
 
 export const PROJECTS = [
-      {
-    id: 1,
-    imgPath: backendJobjunterImg,
-    title: "Backend JobHunter",
-    description: "API backend cho hệ thống tuyển dụng JobHunter. Sử dụng Spring Boot REST API, JWT, phân quyền, xử lý tìm kiếm và lọc dữ liệu linh hoạt.",
-    githubLink: "https://github.com/minh21012005/Java_Spring_Rest",
-    demoLink: ""
-  },
-  {
-    id: 2,
-    imgPath: learningSystemImg,
-    title: "Personal Learning System",
-    description: "Hệ thống hỗ trợ học tập cá nhân hóa sử dụng Spring MVC, giúp học sinh theo dõi khóa học, làm bài tập, và nhận gợi ý từ AI. Tích hợp phân quyền và giao diện hiện đại.",
-    githubLink: "https://github.com/minh21012005/learning-system", // cập nhật
-    demoLink: ""
-  },
-  {
-    id: 3,
-    imgPath: laptopShopImg,
-    title: "Laptop Store",
-    description: "Website thương mại điện tử bán laptop được xây dựng với Spring MVC. Hỗ trợ người dùng duyệt sản phẩm, thêm vào giỏ hàng, thanh toán, quản lý đơn hàng và phần admin.",
-    githubLink: "https://github.com/minh21012005/Java-spring-mvc-LaptopShop-", // cập nhật link nếu bạn có
-    demoLink: "" // nếu có link demo thì thêm
-  },
-  {
-    id: 4,
-    imgPath: leaveManagementImg,
-    title: "Leave Management System",
-    description: "Ứng dụng quản lý nghỉ phép sử dụng Servlet và JSP. Cho phép nhân viên tạo đơn, quản lý trạng thái đơn, và phân quyền xử lý từ phía quản lý.",
-    githubLink: "https://github.com/minh21012005/Leave-Management-System",
-    demoLink: ""
-  }
+    {
+        id: 1,
+        imgPath: backendJobjunterImg,
+        title: {
+            vi: "Backend JobHunter",
+            en: "JobHunter Backend"
+        },
+        description: {
+            vi: "API backend cho hệ thống tuyển dụng JobHunter. Sử dụng Spring Boot REST API, JWT, phân quyền, xử lý tìm kiếm và lọc dữ liệu linh hoạt.",
+            en: "Backend API for JobHunter recruitment system. Built with Spring Boot REST API, JWT, role-based access, and flexible filtering & search features."
+        },
+        githubLink: "https://github.com/minh21012005/Java_Spring_Rest",
+        demoLink: ""
+    },
+    {
+        id: 2,
+        imgPath: learningSystemImg,
+        title: {
+            vi: "Hệ thống học tập cá nhân",
+            en: "Personal Learning System"
+        },
+        description: {
+            vi: "Hệ thống hỗ trợ học tập cá nhân hóa sử dụng Spring MVC, giúp học sinh theo dõi khóa học, làm bài tập, và nhận gợi ý từ AI. Tích hợp phân quyền và giao diện hiện đại.",
+            en: "A personalized learning system using Spring MVC. Allows students to track courses, do exercises, and get AI-powered recommendations. Includes role-based access and modern UI."
+        },
+        githubLink: "https://github.com/minh21012005/learning-system",
+        demoLink: ""
+    },
+    {
+        id: 3,
+        imgPath: laptopShopImg,
+        title: {
+            vi: "Website bán laptop",
+            en: "Laptop Store"
+        },
+        description: {
+            vi: "Website thương mại điện tử bán laptop được xây dựng với Spring MVC. Hỗ trợ người dùng duyệt sản phẩm, thêm vào giỏ hàng, thanh toán, quản lý đơn hàng và phần admin.",
+            en: "An e-commerce website for selling laptops built with Spring MVC. Users can browse products, add to cart, checkout, manage orders, and admin dashboard."
+        },
+        githubLink: "https://github.com/minh21012005/Java-spring-mvc-LaptopShop-",
+        demoLink: ""
+    },
+    {
+        id: 4,
+        imgPath: leaveManagementImg,
+        title: {
+            vi: "Quản lý nghỉ phép",
+            en: "Leave Management System"
+        },
+        description: {
+            vi: "Ứng dụng quản lý nghỉ phép sử dụng Servlet và JSP. Cho phép nhân viên tạo đơn, quản lý trạng thái đơn, và phân quyền xử lý từ phía quản lý.",
+            en: "Leave management app using Servlet and JSP. Employees can request leave, managers can review and approve or reject requests."
+        },
+        githubLink: "https://github.com/minh21012005/Leave-Management-System",
+        demoLink: ""
+    }
 ];
 
 export const SKILLS_DATA = [

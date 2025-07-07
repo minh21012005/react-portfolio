@@ -24,5 +24,27 @@
     },
     "skill": {
         "title": "Technical Skills"
+    },
+    "projectSection": {
+        "heading1": "My Recent",
+        "heading2": "Works",
+        "subHeading": "Here are a few projects I've worked on recently."
+    },
+    "aboutSection": {
+        "heading": "Know Who I'M",
+        "intro": "Hi, I am {{name}} from Hanoi, Vietnam.",
+        "student": "I am currently an Information Technology student at FPT University.",
+        "focus": "I focus on full-stack web development with strong interest in backend using Java Spring Boot and frontend with React.",
+        "hobby": "Besides programming, I also enjoy:",
+        "hobby1": "Exploring new technologies",
+        "hobby2": "Building side projects",
+        "hobby3": "Listening to music and learning new skills",
+        "quote": "\"Strive to become 1% better every day.\"",
+        "education": "Education",
+        "major": "Information Technology",
+        "school": "FPT University",
+        "gpa": "GPA: 8.3 / 10.0",
+        "findMe": "FIND ME ON",
+        "contact": "Contact me"
     }
 }
