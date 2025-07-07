@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import AnimationLottie from 'components/share/animation-lottie';
+import AnimationLottie from '@/components/share/animation-lottie';
 import experienceJSON from 'assets/lottie/code.json'
 import { EXPERIENCES } from 'helpers/data'
 import GlowCard from "components/share/glow-card";

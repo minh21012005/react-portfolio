@@ -22,7 +22,6 @@ const Project = () => {
                                 title={item.title}
                                 description={item.description}
                                 githubLink={item.githubLink}
-                                demoLink={item.demoLink}
                             />
                         </Col>
                     )

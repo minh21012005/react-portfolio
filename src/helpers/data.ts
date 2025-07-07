@@ -1,9 +1,7 @@
-import nestImg from '../assets/project/nestjs.png';
-import nextjsImg from '../assets/project/nextjs.jpeg';
-import reactNativeImg from '../assets/project/react-native.png';
-import reactUltimateImg from '../assets/project/react-ultimate.png';
-import springMvcImg from '../assets/project/spring-mvc.png';
-import springRestImg from '../assets/project/spring-rest.png';
+import laptopShopImg from '../assets/project/laptopshop.png';
+import learningSystemImg from '../assets/project/PLS.png';
+import backendJobjunterImg from '../assets/project/SpringRestApi.png';
+import leaveManagementImg from '../assets/project/LMS.png';
 
 export const APP_DATA = {
     FACEBOOK_URL: "https://www.facebook.com/nguyen.minh.407137/",
@@ -34,55 +32,39 @@ export const EXPERIENCES = [
 ]
 
 export const PROJECTS = [
-    {
-        id: 1,
-        imgPath: reactNativeImg,
-        title: "React Native Basic",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html"
-    },
-    {
-        id: 2,
-        imgPath: springRestImg,
-        title: "Java Spring REST",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html"
-    },
-    {
-        id: 3,
-        imgPath: springMvcImg,
-        title: "Java Spring MVC",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html"
-    },
-    {
-        id: 4,
-        imgPath: nextjsImg,
-        title: "React ProMax with Next.js",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html"
-    },
-    {
-        id: 5,
-        imgPath: nestImg,
-        title: "Nest.js Basic",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html"
-    },
-    {
-        id: 6,
-        imgPath: reactUltimateImg,
-        title: "React Ultimate",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html"
-    }
-]
+      {
+    id: 1,
+    imgPath: backendJobjunterImg,
+    title: "Backend JobHunter",
+    description: "API backend cho hệ thống tuyển dụng JobHunter. Sử dụng Spring Boot REST API, JWT, phân quyền, xử lý tìm kiếm và lọc dữ liệu linh hoạt.",
+    githubLink: "https://github.com/minh21012005/Java_Spring_Rest",
+    demoLink: ""
+  },
+  {
+    id: 2,
+    imgPath: learningSystemImg,
+    title: "Personal Learning System",
+    description: "Hệ thống hỗ trợ học tập cá nhân hóa sử dụng Spring MVC, giúp học sinh theo dõi khóa học, làm bài tập, và nhận gợi ý từ AI. Tích hợp phân quyền và giao diện hiện đại.",
+    githubLink: "https://github.com/minh21012005/learning-system", // cập nhật
+    demoLink: ""
+  },
+  {
+    id: 3,
+    imgPath: laptopShopImg,
+    title: "Laptop Store",
+    description: "Website thương mại điện tử bán laptop được xây dựng với Spring MVC. Hỗ trợ người dùng duyệt sản phẩm, thêm vào giỏ hàng, thanh toán, quản lý đơn hàng và phần admin.",
+    githubLink: "https://github.com/minh21012005/Java-spring-mvc-LaptopShop-", // cập nhật link nếu bạn có
+    demoLink: "" // nếu có link demo thì thêm
+  },
+  {
+    id: 4,
+    imgPath: leaveManagementImg,
+    title: "Leave Management System",
+    description: "Ứng dụng quản lý nghỉ phép sử dụng Servlet và JSP. Cho phép nhân viên tạo đơn, quản lý trạng thái đơn, và phân quyền xử lý từ phía quản lý.",
+    githubLink: "https://github.com/minh21012005/Leave-Management-System",
+    demoLink: ""
+  }
+];
 
 export const SKILLS_DATA = [
   // 🧠 Ngôn ngữ lập trình
