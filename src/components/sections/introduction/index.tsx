@@ -1,6 +1,6 @@
 import { Col, Row } from 'react-bootstrap';
 import Tilt from "react-parallax-tilt";
-import avatarImg from "assets/ava.png";
+import avatarImg from "assets/avatar.png";
 import './introduction.scss';
 import { useTranslation } from 'react-i18next';
 
