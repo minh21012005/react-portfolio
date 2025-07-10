@@ -21,7 +21,7 @@ const HeroLeft = (props: IProps) => {
     }
 
     const hanldeDownloadCV = () => {
-        openInNewTab("https://drive.google.com/file/d/1sCuuzoM8_MVMbSMj5nUFIvsnT-beCzqR/view?usp=drive_link")
+        openInNewTab("https://drive.google.com/file/d/1RxFYkTDYyuF0yKWFLhwjOmVFQJxDOu7p/view?usp=sharing")
     }
 
     return (
