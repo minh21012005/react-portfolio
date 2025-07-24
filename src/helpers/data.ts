@@ -54,8 +54,8 @@ export const PROJECTS = [
             en: "Personal Learning System"
         },
         description: {
-            vi: "Hệ thống hỗ trợ học tập cá nhân hóa sử dụng Spring MVC, giúp học sinh theo dõi khóa học, làm bài tập, và nhận gợi ý từ AI. Tích hợp phân quyền và giao diện hiện đại.",
-            en: "A personalized learning system using Spring MVC. Allows students to track courses, do exercises, and get AI-powered recommendations. Includes role-based access and modern UI."
+            vi: "Nền tảng hỗ trợ học tập được xây dựng bằng Spring MVC, cho phép học sinh và phụ huynh theo dõi quá trình học tập và làm bài tập của học sinh. Hệ thống tích hợp thanh toán qua VNPay và chuyển khoản thủ công, đi kèm giao diện hiện đại và phân quyền linh hoạt.",
+            en: "A Spring MVC-based learning platform that allows students and parents to monitor the student's learning progress and assignments. Includes VNPay and manual bank transfer payment options, with a modern UI and flexible role-based access."
         },
         githubLink: "https://github.com/minh21012005/learning-system",
         demoLink: ""
